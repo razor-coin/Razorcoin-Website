@@ -55,3 +55,9 @@ body {
 .top-menu-holder li {
 	white-space: nowrap !important;
 }
+
+header {
+	z-index: 99;
+	position: fixed;
+	min-width: 100%;
+}

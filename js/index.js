@@ -1,5 +1,10 @@
 $(document).ready(function() {
 	
+	window.setInterval(function(){
+		updateBittrex();
+		updateMintpal();
+	}, 20000);
+	
 	var xmlhttp;
 	if (window.XMLHttpRequest) {
 		xmlhttp = new XMLHttpRequest();
@@ -62,7 +67,7 @@ function updateMintpal() {
 			document.getElementById("bidmintpal").innerHTML = textbid.concat(bidmintpal);
 			document.getElementById("askmintpal").innerHTML = textask.concat(askmintpal);
 			document.getElementById("lastmintpal").innerHTML = textlast.concat(lastmintpal);
-			var domain = "Cloakcoin.com - ";
+			var domain = "Razorcoin | ";
 			var title = domain.concat(lastmintpal);
 			document.title = title;
 		}
