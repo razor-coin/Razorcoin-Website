@@ -20,8 +20,8 @@
         <link rel="stylesheet" href="./css/font-awesome.min.css">
 		
 		<!-- Bootstrap -->
-		<link href="./lib/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<script src="./lib/js/bootstrap.min.js" type="text/javascript"></script>
+		<link href="./lib/css/bootstrap.theme.min.css" rel="stylesheet" type="text/css">
+		<script src="./lib/js/bootstrap.theme.min.js" type="text/javascript"></script>
 		
 		<!-- Fontawesome -->
 		<link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -30,26 +30,28 @@
         <div class="wrapper">
             <header>
                 <div class="container">
-                    <div class="col-xs-12 col-md-5 logo-holder">
-                        <div class="logo"><img src="images/logo.png" alt="Razorcoin - Cryptocurrency" width="432" height="75"></div>
+                    <div class="col-xs-12 col-md-5">
+                        <div class="logo">
+							<img src="images/logo.png" alt="Razorcoin - Cryptocurrency">
+						</div>
 					</div>
-                    <div class="col-xs-12 col-md-7 top-menu-holder">
-                        <nav class="hidden-xs ">
+                    <div class="top-menu-holder">
+                        <nav class="navbar-static-top navbar-trans" role="navigation">
                             <ul>
                                 <li class="active">
-                                    <a  href="#index">Home</a>
+                                    <a href="#index">Home</a>
                                 </li>
                                 <li>
-                                    <a  href="#parameters">About</a>
+                                    <a href="#Specifications">About</a>
                                 </li>
                                 <li>
-                                    <a  href="#community">Community</a>
+                                    <a href="#community">Community</a>
                                 </li>
                                 <li>
-                                    <a  href="#development">Development</a>
+                                    <a href="#development">Development</a>
                                 </li>
                                 <li>
-                                    <a  href="#contact">Contact</a>
+                                    <a href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </nav>
@@ -125,15 +127,14 @@
                 </div>
 			</section>
 
-            <section id="parameters" class="section">
+            <section id="Specifications" class="section">
                 <div class="container">
                     <div class="tabs-holder">
                         <div class="paragraph-holder text-center">
-						
                             <!-- Nav tabs -->
                             <ul class="tabs-buttons" >
                                 <li><a class="le-button big" href="#wallets" data-toggle="tab"><i class="fa fa-money"></i>Wallets</a></li>
-                                <li class="active"><a class="le-button big active" href="#parameters" data-toggle="tab"><i class="fa fa-info"></i>Parameters</a></li>
+                                <li class="active"><a class="le-button big active" href="#Specifications" data-toggle="tab"><i class="fa fa-info"></i>Specifications</a></li>
                                 <li><a class="le-button big" href="#exchanges" data-toggle="tab"><i class="fa fa-exchange"></i>Exchanges</a></li>
                                 <li><a class="le-button big" href="#Resources" data-toggle="tab"><i class="fa fa-suitcase"></i>Resources</a></li>
                             </ul>
@@ -148,65 +149,71 @@
                             <div class="tab-pane fade" id="wallets">
 								<div class="row">
 									<div class="col-md-4">
-										<div class="panel panel-default">
-											<div class="panel-heading">
-												<a class="btn btn-primary" href="https://mega.co.nz/#!J8pzEIwZ!1VyB2MuxxzchJixD5PqXNMe9BMX7frwYMYLljP7fGTY" target="_blank">
-													Windows
-												</a>
+										<a href="https://mega.co.nz/#!J8pzEIwZ!1VyB2MuxxzchJixD5PqXNMe9BMX7frwYMYLljP7fGTY" target="_blank">
+											<div class="panel panel-default">
+												<div class="panel-heading">
+													<button class="btn btn-primary">Windows</button>
+												</div>
+												<div class="panel-body">
+													<img src="./images/win.png"/>
+												</div>
 											</div>
-											<div class="panel-body">
-												<img src="./images/win.png"/>
-											</div>
-										</div>
+										</a>
 									</div>
 									<div class="col-md-4">
-										<div class="panel panel-default">
-											<div class="panel-heading">
-												<a class="btn btn-primary" href="https://www.dropbox.com/s/jr60zujp4ihtcqz/Razor-Qt_0.1.3.1.dmg" target="_blank">Macintosh</a>
+										<a href="https://www.dropbox.com/s/jr60zujp4ihtcqz/Razor-Qt_0.1.3.1.dmg" target="_blank">
+											<div class="panel panel-default">
+												<div class="panel-heading">
+													<button class="btn btn-primary">
+														Macintosh
+													</button>
+												</div>
+												<div class="panel-body">
+													<img src="./images/mac.png"/>
+												</div>
 											</div>
-											<div class="panel-body">
-												<img src="./images/mac.png"/>
-											</div>
-										</div>
+										</a>
 									</div>
 									<div class="col-md-4">
-										<div class="panel panel-default">
-											<div class="panel-heading">
-												<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">
-													Source
-												</a>
+										<a href="https://github.com/razor-coin/razor" target="_blank">
+											<div class="panel panel-default">
+												<div class="panel-heading">
+													<button class="btn btn-primary">
+														Source
+													</button>
+												</div>
+												<div class="panel-body">
+													<img src="./images/git.png"/>
+												</div>
 											</div>
-											<div class="panel-body">
-												<img src="./images/git.png"/>
-											</div>
-										</div>
+										</a>
 									</div>
 									<div class="row">
 										<div class="extra-links">
 											<div class="col-md-3">
 												<div class="well well-sm">
-													<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">
-														Install Guide
+													<a class="btn btn-primary" href="http://www.bitscoinshop.com.br/en/" target="_blank">
+														Merchant: bitcoinshop
 													</a>
 												</div>
 											</div>
 											<div class="col-md-3">
 												<div class="well well-sm">
-													<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">
-														Linux
+													<a class="btn btn-primary" href="http://jaysjerkyandgoodies.auctivacommerce.com/" target="_blank">
+														Merchant: Jays Jerky and Goodies
 													</a>
 												</div>
 											</div>
 											<div class="col-md-3">
 												<div class="well well-sm">
-													<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">
-														Linux Daemon
+													<a class="btn btn-primary" href="http://rzrinsight.buddylabsapps.com/top100" target="_blank">
+														Top 100 richest
 													</a>
 												</div>
 											</div>
 											<div class="col-md-3">
 												<div class="well well-sm">
-													<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">
+													<a class="btn btn-primary" href="http://rzrinsight.buddylabsapps.com/" target="_blank">
 														Block Explorer
 													</a>
 												</div>
@@ -258,7 +265,6 @@
 										</article>
 									</div>
 									<div class="hidden-xs  col-sm-2">
-										<div class="vertical-seperator"></div>
 									</div>
 									<div class="col-xs-12 col-sm-5">
 										<article class="text-center" >
@@ -288,42 +294,41 @@
 		</section>
 
 		<section id="community" class="section">
-            <div id="row"> 
+            <div class="row"> 
                 <div class="container">
 					<div class="col-md-6">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<div class="panel-title">
-									<a href="https://bitcointalk.org/index.php?topic=644498.0">
+						<a href="https://bitcointalk.org/index.php?topic=644498.0" target="_blank">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<div class="panel-title">
 										<button type="button" class="btn btn-primary">Bitcointalk</button>
-									</a>
+									</div>
+								</div>
+								<div class="panel-body">
+									<i class="fa fa-bitcoin fa-4x"></i>
+									<p>
+										Bitcointalk thread
+									</p>
 								</div>
 							</div>
-							<div class="panel-body">
-								<i class="fa  fa-bitcoin fa-4x"></i>
-								<p>
-									<a href="https://bitcointalk.org/index.php?topic=644498.0">Bitcointalk thread</a>
-								</p>
-							</div>
-						</div>
+						</a>						
 					</div>
 					<div class="col-md-6">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<div class="panel-title">
-									<a href="http://www.reddit.com/r/razorcoin">
-									<button type="button" class="btn btn-primary">Subreddit</button>
-									</a>
+						<a href="http://www.reddit.com/r/razorcoin" target="_blank">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<div class="panel-title">
+										<button type="button" class="btn btn-primary">Subreddit</button>
+									</div>
+								</div>
+								<div class="panel-body">
+									<img src="./images/reddit.png"/>
+									<p>
+										/r/razorcoin
+									</p>
 								</div>
 							</div>
-							<div class="panel-body">
-								<i class="fa fa-reddit-square fa-4x"></i>
-								</br>
-								<a href="http://www.reddit.com/r/razorcoin">/r/razorcoin</a>
-								</p>
-							
-							</div>
-						</div>
+						</a>
 					</div>
                 </div>
 			</div>
@@ -342,22 +347,26 @@
 							</div>
 							<div class="panel-body">
 								<div class="col-md-6">
-									<i class="fa fa-file-o fa-4x"></i>
-									<p>An Analysis of Anonymity in Bitcoin Using P2P Network Traffic:</p>
-									<p>
-										<a href="https://www.dropbox.com/s/dl6aozbf3ddgjpy/Razor_Whitepaper.pdf">
+									<a href="https://www.dropbox.com/s/dl6aozbf3ddgjpy/Razor_Whitepaper.pdf">
+										<i class="fa fa-file-o fa-4x"></i>
+										<p>
+											An Analysis of Anonymity in Bitcoin Using P2P Network Traffic:
+										</p>
+										<p>
 											<button type="button" class="btn btn-primary">White Paper #1</button>
-										</a>
-									</p>
+										</p>
+									</a>
 								</div>
 								<div class="col-md-6">
-									<i class="fa fa-file-text-o fa-4x"></i>
-									<p>The Razor whitepaper and solution to the previous whitepaper:</p>
-									<p>
-										<a href="http://fc14.ifca.ai/papers/fc14_submission_71.pdf">
+									<a href="http://fc14.ifca.ai/papers/fc14_submission_71.pdf">
+										<i class="fa fa-file-text-o fa-4x"></i>
+										<p>
+											The Razor whitepaper and solution to the previous whitepaper:
+										</p>
+										<p>
 											<button type="button" class="btn btn-primary">White Paper #2</button>
-										</a>
-									</p>
+										</p>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -366,57 +375,60 @@
 			</div>
         </section>
 		<section id="contact" class="section" >
-			<div id="row"> 
+			<div class="row"> 
 				<div class="container">
 					<div class="col-md-5">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<div class="panel-title">
-									<a href="https://twitter.com/TheRazorCoin">
+						<a href="https://twitter.com/TheRazorCoin">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<div class="panel-title">
 										<button type="button" class="btn btn-primary">Twitter</button>
-									</a>
+									</div>
+								</div>
+								<div class="panel-body">
+									<i class="fa fa-twitter fa-4x"></i>
+									<p>
+										@TheRazorCoin
+									</p>
 								</div>
 							</div>
-							<div class="panel-body">
-								<i class="fa fa-twitter fa-4x"></i>
-								<p>
-									<a href="https://twitter.com/TheRazorCoin">@TheRazorCoin</a>
-								</p>
-							</div>
-						</div>
+						</a>
 					</div>
 					<div class="col-md-5">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<div class="panel-title">
-									<a href="http://webchat.freenode.net/?channels=RazorCoin">
+						<a href="http://webchat.freenode.net/?channels=RazorCoin">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<div class="panel-title">
 										<button type="button" class="btn btn-primary">IRC</button>
-									</a>
+									</div>
+								</div>
+								<div class="panel-body">
+									<div class="panel-title">
+										<i class="fa fa-group fa-4x pull-center"></i>
+										<p>
+											RazorCoin
+										</p>
+									</div>
 								</div>
 							</div>
-							<div class="panel-body">
-								<div class="panel-title">
-									<a href="http://webchat.freenode.net/?channels=RazorCoin">
-										<i class="fa fa-group fa-4x pull-center"></i> RazorCoin
-									</a>
-								</div>
-							</div>
-						</div>
+						</a>
 					</div>
 					<div class="col-md-2">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<div class="panel-title">
-									<a href="mailto:admin@razorco.in">
-										<button type="button" class="btn btn-primary">Email</button>
-									</a>
+						<a href="mailto:admin@razorco.in">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<div class="panel-title">
+											<button type="button" class="btn btn-primary">Email</button>
+									</div>
+								</div>
+								<div class="panel-body">
+									<i class="fa fa-mail-reply fa-4x"></i>
+									<p>
+										admin@razorco.in
+									</p>
 								</div>
 							</div>
-							<div class="panel-body">
-								<i class="fa fa-mail-reply fa-4x"></i>
-								<a href="mailto:admin@razorco.in">admin@razorco.in</a> 
-							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
