@@ -9,6 +9,9 @@
         <meta name="keywords" content="Responsive, Template, DIMCO">
         <meta name="robots" content="all">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Main styling document -->
+		<link rel="stylesheet" href="./css/style.css">
 
         <link rel="stylesheet" href="css/flexslider.css">
         <link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
@@ -369,7 +372,6 @@
 							</div>
 							<div class="panel-body">
 								<i class="fa fa-group fa-4x"></i>
-								</br>
 								<a href="http://webchat.freenode.net/?channels=RazorCoin">RazorCoin</a>
 							</div>
 						</div>
@@ -377,7 +379,11 @@
 					<div class="col-md-2">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h3 class="panel-title">Email</h3>
+								<h3 class="panel-title">
+									<a href="mailto:admin@razorco.in">
+										<button type="button" class="btn btn-primary">Email</button>
+									</a> 
+								</h3>
 							</div>
 							<div class="panel-body">
 								<i class="fa fa-paper-plane fa-4x"></i>
