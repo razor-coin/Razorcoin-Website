@@ -155,7 +155,7 @@
 												</a>
 											</div>
 											<div class="panel-body">
-												<i class="fa fa-windows fa-5x"></i>
+												<img src="./images/win.png"/>
 											</div>
 										</div>
 									</div>
@@ -165,7 +165,7 @@
 												<a class="btn btn-primary" href="https://www.dropbox.com/s/jr60zujp4ihtcqz/Razor-Qt_0.1.3.1.dmg" target="_blank">Macintosh</a>
 											</div>
 											<div class="panel-body">
-												<i class="fa fa-apple fa-5x"></i>
+												<img src="./images/mac.png"/>
 											</div>
 										</div>
 									</div>
@@ -177,7 +177,7 @@
 												</a>
 											</div>
 											<div class="panel-body">
-												<i class="fa fa-github-square fa-5x"></i>
+												<img src="./images/git.png"/>
 											</div>
 										</div>
 									</div>
@@ -413,7 +413,7 @@
 								</div>
 							</div>
 							<div class="panel-body">
-								<i class="fa fa-paper-plane fa-4x"></i>
+								<i class="fa fa-mail-reply fa-4x"></i>
 								<a href="mailto:admin@razorco.in">admin@razorco.in</a> 
 							</div>
 						</div>
