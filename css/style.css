@@ -1,0 +1,26 @@
+@media (max-width:910px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:480px){
+
+}
+
+/* General */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.panel-head {
+	min-height: 75px;
+}
+
+.panel-body {
+	min-height: 150px;
+}
