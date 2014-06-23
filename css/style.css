@@ -25,6 +25,24 @@ body {
 	padding: 0;
 }
 
+header {
+	z-index: 9999;
+	position: fixed;
+	min-width: 100%;
+}
+
+#intro {
+	position: relative;
+	top: 0;
+	min-width: 100%;
+	margin-top: -85px;
+}
+
+#content {
+	position: relative;
+	margin-top: 85px;
+}
+
 #exchanges .panel-body {
 	min-height: 100px !important;
 }
@@ -54,10 +72,4 @@ body {
 
 .top-menu-holder li {
 	white-space: nowrap !important;
-}
-
-header {
-	z-index: 99;
-	position: fixed;
-	min-width: 100%;
 }
