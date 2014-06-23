@@ -2,7 +2,8 @@
 <html>
     <head>
         <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
         <title>Razorcoin | Privacy Matters</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
  		<link rel="icon" type="image/ico" href="favicon.ico"/>
@@ -12,10 +13,18 @@
 		
 		<!-- Main styling document -->
 		<link rel="stylesheet" href="./css/style.css">
-
-        <link rel="stylesheet" href="css/flexslider.css">
-        <link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
         <link rel="stylesheet" href="css/stylesheet.css">
+		<link rel="stylesheet" href="css/flexslider.css">
+		
+		<!-- Fontawesome -->
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+		
+		<!-- Bootstrap -->
+		<link href="./lib/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<script src="./lib/js/bootstrap.min.js" type="text/javascript"></script>
+		
+		<!-- Fontawesome -->
+		<link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div class="wrapper">
@@ -28,7 +37,7 @@
                         <nav class="hidden-xs ">
                             <ul>
                                 <li class="active">
-                                    <a  href="/">Home</a>
+                                    <a  href="#index">Home</a>
                                 </li>
                                 <li>
                                     <a  href="#parameters">About</a>
@@ -48,7 +57,7 @@
                 </div>
             </header>
 
-            <section class="home-slider">
+            <section class="home-slider" id="index">
                 <div class="flexslider homeslider">
                     <div class="preloader bubble-loader loading">
                         <div class="1"></div>
@@ -116,14 +125,14 @@
                 </div>
 			</section>
 
-            <section id="home-tabs" class="section">
+            <section id="parameters" class="section">
                 <div class="container">
                     <div class="tabs-holder">
                         <div class="paragraph-holder text-center">
 						
                             <!-- Nav tabs -->
                             <ul class="tabs-buttons" >
-                                <li ><a class="le-button big" href="#wallets" data-toggle="tab"><i class="fa fa-money"></i>Wallets</a></li>
+                                <li><a class="le-button big" href="#wallets" data-toggle="tab"><i class="fa fa-money"></i>Wallets</a></li>
                                 <li class="active"><a class="le-button big active" href="#parameters" data-toggle="tab"><i class="fa fa-info"></i>Parameters</a></li>
                                 <li><a class="le-button big" href="#exchanges" data-toggle="tab"><i class="fa fa-exchange"></i>Exchanges</a></li>
                                 <li><a class="le-button big" href="#Resources" data-toggle="tab"><i class="fa fa-suitcase"></i>Resources</a></li>
@@ -140,7 +149,10 @@
 								<div class="row">
 									<div class="col-md-4">
 										<div class="panel panel-default">
-											<div class="panel-heading"><a class="btn btn-primary" href="https://mega.co.nz/#!J8pzEIwZ!1VyB2MuxxzchJixD5PqXNMe9BMX7frwYMYLljP7fGTY" target="_blank">  Windows</a>
+											<div class="panel-heading">
+												<a class="btn btn-primary" href="https://mega.co.nz/#!J8pzEIwZ!1VyB2MuxxzchJixD5PqXNMe9BMX7frwYMYLljP7fGTY" target="_blank">
+													Windows
+												</a>
 											</div>
 											<div class="panel-body">
 												<i class="fa fa-windows fa-5x"></i>
@@ -160,7 +172,9 @@
 									<div class="col-md-4">
 										<div class="panel panel-default">
 											<div class="panel-heading">
-												<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">Source</a>
+												<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">
+													Source
+												</a>
 											</div>
 											<div class="panel-body">
 												<i class="fa fa-github-square fa-5x"></i>
@@ -171,29 +185,37 @@
 										<div class="extra-links">
 											<div class="col-md-3">
 												<div class="well well-sm">
-													<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">Install Guide</a>
+													<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">
+														Install Guide
+													</a>
 												</div>
 											</div>
 											<div class="col-md-3">
 												<div class="well well-sm">
-													<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">Linux</a>
+													<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">
+														Linux
+													</a>
 												</div>
 											</div>
 											<div class="col-md-3">
 												<div class="well well-sm">
-													<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">Linux Daemon</a>
+													<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">
+														Linux Daemon
+													</a>
 												</div>
 											</div>
 											<div class="col-md-3">
 												<div class="well well-sm">
-													<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">Block Explorer</a>
+													<a class="btn btn-primary" href="https://github.com/razor-coin/razor" target="_blank">
+														Block Explorer
+													</a>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
                             </div>
-                            <div class="tab-pane fade in active" id="parameters">
+                            <div class="tab-pane fade in active">
                                 <article>
                                     <h4>What is <strong>Razorcoin?</strong></h4>
                                     <p>
@@ -202,14 +224,14 @@
                                     <div class="row">
 										<div class="col-md-offset-2 col-md-8">
 											<ul class="list-group ui-selectable">
-												<li class="list-group-item ui-selectee"> Symbol : RZR</li>
-												<li class="list-group-item ui-selectee"> Max Coins: 2,000,000 (2 Million)</li>
+												<li class="list-group-item ui-selectee">Symbol : RZR</li>
+												<li class="list-group-item ui-selectee">Max Coins : 2,000,000 (2 Million)</li>
 												<li class="list-group-item ui-selectee">Algorithm : Scrypt</li>
-												<li class="list-group-item ui-selectee"> Premine : <strong>0%</strong></li>
+												<li class="list-group-item ui-selectee">Premine : <strong>0%</strong></li>
 												<li class="list-group-item ui-selectee">Block time : 75 seconds</li>
-												<li class="list-group-item ui-selectee"> Re-targeting : KGW </li>
+												<li class="list-group-item ui-selectee">Re-targeting : KGW</li>
 												<li class="list-group-item ui-selectee">Block reward: 100</li>
-												<li class="list-group-item ui-selectee">Halving: every 10,000 blocks</li>
+												<li class="list-group-item ui-selectee">Halving : every 10,000 blocks</li>
 												<li class="list-group-item ui-selectee">RPCPort : 9393</li>
 											</ul>
 										</div>
@@ -242,7 +264,9 @@
 										<article class="text-center" >
 											<div class="panel panel-default">
 												<div class="panel-heading">
-													<a href="https://www.mintpal.com/market/RZR/BTC" target="_blank"><h4>Mintpal</h4></a>
+													<a href="https://www.mintpal.com/market/RZR/BTC" target="_blank">
+														<h4>Mintpal</h4>
+													</a>
 												</div>
 												<div class="panel-body">
 													<span id="bidmintpal"></span><br>
@@ -263,22 +287,22 @@
 			</div>
 		</section>
 
-		<section id="community" class="section" >
+		<section id="community" class="section">
             <div id="row"> 
                 <div class="container">
 					<div class="col-md-6">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h3 class="panel-title">
+								<div class="panel-title">
 									<a href="https://bitcointalk.org/index.php?topic=644498.0">
 										<button type="button" class="btn btn-primary">Bitcointalk</button>
 									</a>
-								</h3>
+								</div>
 							</div>
 							<div class="panel-body">
 								<i class="fa  fa-bitcoin fa-4x"></i>
 								<p>
-									<a href="https://bitcointalk.org/index.php?topic=644498.0">644498.0</a>
+									<a href="https://bitcointalk.org/index.php?topic=644498.0">Bitcointalk thread</a>
 								</p>
 							</div>
 						</div>
@@ -286,11 +310,11 @@
 					<div class="col-md-6">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h3 class="panel-title">
+								<div class="panel-title">
 									<a href="http://www.reddit.com/r/razorcoin">
-									<button type="button" class="btn btn-primary">Reddit</button>
+									<button type="button" class="btn btn-primary">Subreddit</button>
 									</a>
-								</h3>
+								</div>
 							</div>
 							<div class="panel-body">
 								<i class="fa fa-reddit-square fa-4x"></i>
@@ -311,10 +335,10 @@
 					<div class="col-md-12">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h3 class="panel-title">
+								<div class="panel-title">
 									<h2>Whitepapers</h2>
 									</a>
-								</h3>
+								</div>
 							</div>
 							<div class="panel-body">
 								<div class="col-md-6">
@@ -347,11 +371,11 @@
 					<div class="col-md-5">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h3 class="panel-title">
+								<div class="panel-title">
 									<a href="https://twitter.com/TheRazorCoin">
 										<button type="button" class="btn btn-primary">Twitter</button>
 									</a>
-								</h3>
+								</div>
 							</div>
 							<div class="panel-body">
 								<i class="fa fa-twitter fa-4x"></i>
@@ -364,26 +388,29 @@
 					<div class="col-md-5">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h3 class="panel-title">
+								<div class="panel-title">
 									<a href="http://webchat.freenode.net/?channels=RazorCoin">
 										<button type="button" class="btn btn-primary">IRC</button>
 									</a>
-								</h3>
+								</div>
 							</div>
 							<div class="panel-body">
-								<i class="fa fa-group fa-4x"></i>
-								<a href="http://webchat.freenode.net/?channels=RazorCoin">RazorCoin</a>
+								<div class="panel-title">
+									<a href="http://webchat.freenode.net/?channels=RazorCoin">
+										<i class="fa fa-group fa-4x pull-center"></i> RazorCoin
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-2">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h3 class="panel-title">
+								<div class="panel-title">
 									<a href="mailto:admin@razorco.in">
 										<button type="button" class="btn btn-primary">Email</button>
-									</a> 
-								</h3>
+									</a>
+								</div>
 							</div>
 							<div class="panel-body">
 								<i class="fa fa-paper-plane fa-4x"></i>
