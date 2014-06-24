@@ -85,4 +85,17 @@ html[xmlns] .slides {display: block;}
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
+  .flexslider {display:none;}
+  .home-slider .flexslider .flex-caption {width:44%;
+  font-size:50%;}
+  #home-front{margin-top:45px;}
+}
+
+@media screen and (max-width: 560px) {
+  .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
+  .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
+  .flexslider {display:none;}
+  .home-slider .flexslider .flex-caption {width:44%;
+  font-size:50%;}
+  
 }

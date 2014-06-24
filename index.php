@@ -28,43 +28,31 @@
     </head>
     <body>
 	
-<div id="intro">
-	<div class="wrapper">
-		<header>
-			<div class="container">
-				<div class="col-xs-12 col-md-5">
-					<div class="logo">
-						<img src="images/logo.png" alt="Razorcoin - Cryptocurrency">
-					</div>
-				</div>
-				<div class="top-menu-holder">
-					<nav class="navbar-static-top navbar-trans navbar-collapse" role="navigation">
-						<ul>
-							<li>
-								<a href="#index">Home</a>
-							</li>
-							<li>
-								<a href="#Specifications">About</a>
-							</li>
-							<li>
-								<a href="#community">Community</a>
-							</li>
-							<li>
-								<a href="#development">Development</a>
-							</li>
-							<li>
-								<a href="#contact">Contact</a>
-							</li>
+	<div role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         <div id="home"> <img src="images/logo.png" alt="Razorcoin - Cryptocurrency"></div>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#specifications">About</a></li>
+            <li><a href="#community">Community</a></li>
+			<li><a href="#development">Development</a></li>
+			<li><a href="#contact">Contact</a></li>
 						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
-	</div>
-</div>
-
-<div id="content">
-	<section class="home-slider" id="index">
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    
+    <section class="home-slider" id="index">
 		<div class="flexslider homeslider">
 			<div class="preloader bubble-loader loading">
 				<div class="1"></div>
@@ -133,7 +121,10 @@
 		</div>
 	</section>
 
-	<section id="Specifications" class="section">
+
+
+	
+	<section id="home-front" class="section">
 		<div class="container">
 			<div class="tabs-holder">
 				<div class="paragraph-holder text-center">
@@ -141,7 +132,7 @@
 					<!-- Nav tabs -->
 					<ul class="tabs-buttons" >
 						<li><a class="le-button big" href="#wallets" data-toggle="tab"><i class="fa fa-money"></i>Wallets</a></li>
-						<li class="active"><a class="le-button big active" href="#Specifications" data-toggle="tab"><i class="fa fa-info"></i>Specifications</a></li>
+						<li class="active"><a class="le-button big active" href="#specifications" data-toggle="tab"><i class="fa fa-info"></i>Specifications</a></li>
 						<li><a class="le-button big" href="#exchanges" data-toggle="tab"><i class="fa fa-exchange"></i>Exchanges</a></li>
 						<li><a class="le-button big" href="#Resources" data-toggle="tab"><i class="fa fa-suitcase"></i>Resources</a></li>
 					</ul>
@@ -230,8 +221,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade in active">
-							<article>
+						<div id="specifications" class="tab-pane fade in active">
+							<article >
 								<h4>What is <strong>Razorcoin?</strong></h4>
 								<p>
 									Razor is the next evolution in cryptocurrency that offers enhanced privacy and security features.  Taking anonymity and privacy one step further, Razor utilizes the TOR network to connect clients.  Implementing this concept with current anonymous transaction innovation we plan to create the first truly private currency.  With current implementation it is possible to remain as anonymous as you would like.  The network will be supported through scrypt PoW.  We have chosen the scrypt algorithm because we believe ASICs can strengthen the network.  We feel it is still in a stage everyone can participate and still have the best of both worlds.
@@ -259,16 +250,12 @@
 									<article class="text-center">
 										<div class="panel panel-default">
 											<div class="panel-heading">
-												<a href="https://www.bittrex.com/Market/Index?MarketName=BTC-RZR" target="_blank"><h4>Bittrex</h4></a>
-											</div>
-											<div class="panel-body">
-												<span id="bidbittrex"></span><br>
-												<span id="askbittrex"></span><br>
-												<span id="lastbittrex"></span><br>
-											</div>
-											<div class="panel-footer">
 												<a href="https://www.bittrex.com/Market/Index?MarketName=BTC-RZR" class="btn btn-primary" target="_blank">Visit Bittrex</a>
 											</div>
+											<div class="panel-body">
+												<img src="images/logo-bittrex.png" alt="Bittrex">
+											</div>
+											
 										</div>
 									</article>
 								</div>
@@ -278,18 +265,12 @@
 								<article class="text-center" >
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<a href="https://www.mintpal.com/market/RZR/BTC" target="_blank">
-												<h4>Mintpal</h4>
-											</a>
-										</div>
-										<div class="panel-body">
-											<span id="bidmintpal"></span><br>
-											<span id="askmintpal"></span><br>
-											<span id="lastmintpal"></span><br>
-										</div>
-										<div class="panel-footer">
 											<a href="https://www.mintpal.com/market/RZR/BTC" class="btn btn-primary" target="_blank">Visit Mintpal</a>
 										</div>
+										<div class="panel-body">
+											<img src="images/mintpal.png" alt="Mintpal">
+										</div>
+									
 									</div>
 								</article>
 							</div>

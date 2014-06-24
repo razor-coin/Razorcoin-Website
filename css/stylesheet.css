@@ -219,6 +219,15 @@ padding:12px;}
 	font-size:15px;
 	
 }
+#exchanges .panel-body{
+    background:#333333!important;
+	
+}
+#exchanges .panel-body img{
+    background:#333333!important;
+	padding:15px;
+	}
+	
 #development{ background:#ddd; height:auto!important;}
 #development .panel {
     text-align: center;
@@ -3893,7 +3902,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-nav {
     float: left;
-    margin: 0;
+    margin: 12px;
+	margin-left:25px;
   }
   .navbar-nav > li {
     float: left;
@@ -3901,6 +3911,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
+	color: #dddcc5;
+    font-size: 18px;
+    padding-left: 13px;
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
@@ -4466,6 +4479,8 @@ a.list-group-item.active > .badge,
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
+.home-slider .flexslider .flex-caption {width:44%;
+  font-size:50%;}
   .jumbotron {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -6192,7 +6207,7 @@ header .top-menu-holder ul li a:hover {
 }
 
 .home-slider .flexslider .flex-caption {
-	min-width: 100% !important;
+	width: 75% !important;
 	height: auto;
 	position: absolute;
 	left: 0;
@@ -7004,7 +7019,7 @@ select.top-drop-menu {
 }
 @media (max-width: 1199px) {
   .home-slider .flexslider .flex-caption {
-    top: 20%;
+    top: 24%;
   }
 }
 @media all and (max-width: 991px) {
