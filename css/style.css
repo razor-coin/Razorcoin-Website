@@ -44,6 +44,10 @@ header {
     text-decoration: underline;
 }
 
+.home-slider {
+	min-width: 80% !important;
+}
+
 #intro {
 	position: relative;
 	top: 0;
