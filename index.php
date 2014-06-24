@@ -134,7 +134,7 @@
 						<li><a class="le-button big" href="#wallets" data-toggle="tab"><i class="fa fa-money"></i>Wallets</a></li>
 						<li class="active"><a class="le-button big active" href="#specifications" data-toggle="tab"><i class="fa fa-info"></i>Specifications</a></li>
 						<li><a class="le-button big" href="#exchanges" data-toggle="tab"><i class="fa fa-exchange"></i>Exchanges</a></li>
-						<li><a class="le-button big" href="#Resources" data-toggle="tab"><i class="fa fa-suitcase"></i>Resources</a></li>
+						<li><a class="le-button big" href="https://bitcointalk.org/index.php?topic=644498.0"><i class="fa fa-suitcase"></i>Resources</a></li>
 					</ul>
 				</div>
 			</div>
