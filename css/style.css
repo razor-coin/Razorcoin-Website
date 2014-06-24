@@ -5,7 +5,9 @@
 }
 
 @media (max-width:910px) {
-
+	.logo img {
+		width: 200px !important;
+	}
 }
 
 @media (max-width:768px) {
@@ -60,6 +62,7 @@ header {
 
 #content {
 	position: relative;
+	margin-top: 85px;
 }
 
 #exchanges .panel-body {
