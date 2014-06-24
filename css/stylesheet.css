@@ -6179,17 +6179,20 @@ header .top-menu-holder ul li a {
 
 }
 header .top-menu-holder ul li a:hover {
-  color: #958976;
+	color: #958976;
 }
+
 .home-slider {
-  position: relative;
+	position: relative;
 }
+
 .home-slider .flexslider {
-  position: relative;
-  zoom: 1;
+	position: relative;
+	zoom: 1;
 }
+
 .home-slider .flexslider .flex-caption {
-	width: 62.5%;
+	min-width: 100% !important;
 	height: auto;
 	position: absolute;
 	left: 0;
@@ -6201,6 +6204,7 @@ header .top-menu-holder ul li a:hover {
 	text-align: center;
 	color: #fff;
 }
+
 .home-slider .flexslider .flex-caption .play-button {
 	text-align: center;
 	display: block;
@@ -6215,7 +6219,7 @@ header .top-menu-holder ul li a:hover {
 }
 .home-slider .flexslider .flex-caption h4 {
 	font-family: 'Roboto', sans-serif;
-	font-size:17px;
+	font-size: 17px;
 }
 .home-slider .flexslider .flex-caption h1 {
 	font-size: 45px;
@@ -6263,16 +6267,19 @@ header .top-menu-holder ul li a:hover {
 	right: 3%;
 	color: #fff;
 }
+
 .home-slider .flexslider .flex-direction-nav a.flex-next:after {
 	margin-left: 10px;
 	content: '';
 }
+
 .paragraph-holder p {
 	color: #000;
 	font-family: "Times New Roman";
 	font-size: 16px;
 	margin: 0 0 27px 0;
 }
+
 hr.dotted {
 	border: none;
 	margin: 10px 0;
@@ -6297,16 +6304,17 @@ hr.dotted:after {
 }
 .tabs-holder i{padding-right:6px;}
 .tabs-holder .tab-pane article {
-  text-align: center;
-  color: #000;
+	text-align: center;
+	color: #000;
 }
 .tabs-holder .tab-content {
-  margin: 10px 0;
+	margin: 10px 0;
 }
 .tabs-holder .tab-content .image-holder {
-  margin: 25px 0 60px;
-  border-bottom: 1px solid #eeeeee;
+	margin: 25px 0 60px;
+	border-bottom: 1px solid #eeeeee;
 }
+
 div#uiux {
   margin: 0 0 100px 0;
 }
