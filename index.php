@@ -28,7 +28,7 @@
     </head>
     <body>
 	
-	<div role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+	<div role="navigation" class="navbar navbar-inverse navbar-scroll-top">
       <div class="container">
         <div class="navbar-header">
           <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
@@ -417,6 +417,7 @@
 				</div>
 			</div>
 		</div>
+        
 	</section>
 </div>
 
@@ -425,14 +426,18 @@
 		<div class="copyright-bar">
 			<div class="container">
 				<div class="col-xs-12 col-sm-6">
-					<p>
-						Razorcoin&copy; 2014
+				
+               
+                    <p class="copyright">
+						Razorcoin&copy; 2014 
 					</p>
 				</div>
 				<div class="col-xs-12 col-sm-6 text-right">
 					<p>
 						Designed by <a href="https://twitter.com/goldminer333"><img src="images/goldminer.png" alt="Goldminer.graphics" width="32" height="24" border="0"></a> & <a href="https://twitter.com/fullhdpixel">Fullhdpixel </a>
+                         <a id="back-to-top" href="#home-link" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fa fa-arrow-up"></i></span></a>
 					</p>
+                   
                 </div>
             </div>
 		</div>
