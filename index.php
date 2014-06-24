@@ -38,9 +38,9 @@
 					</div>
 				</div>
 				<div class="top-menu-holder">
-					<nav class="navbar-static-top navbar-trans" role="navigation">
+					<nav class="navbar-static-top navbar-trans navbar-collapse" role="navigation">
 						<ul>
-							<li class="active">
+							<li>
 								<a href="#index">Home</a>
 							</li>
 							<li>
@@ -272,32 +272,32 @@
 										</div>
 									</article>
 								</div>
-								<div class="hidden-xs  col-sm-2">
-								</div>
-								<div class="col-xs-12 col-sm-5">
-									<article class="text-center" >
-										<div class="panel panel-default">
-											<div class="panel-heading">
-												<a href="https://www.mintpal.com/market/RZR/BTC" target="_blank">
-													<h4>Mintpal</h4>
-												</a>
-											</div>
-											<div class="panel-body">
-												<span id="bidmintpal"></span><br>
-												<span id="askmintpal"></span><br>
-												<span id="lastmintpal"></span><br>
-											</div>
-											<div class="panel-footer">
-												<a href="https://www.mintpal.com/market/RZR/BTC" class="btn btn-primary" target="_blank">Visit Mintpal</a>
-											</div>
-										</div>
-									</article>
-								</div>
+								<div class="hidden-xs col-sm-2">
 							</div>
-                           </div>
-                       </div>
-                   </div>
-               <article>
+							<div class="col-xs-12 col-sm-5">
+								<article class="text-center" >
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<a href="https://www.mintpal.com/market/RZR/BTC" target="_blank">
+												<h4>Mintpal</h4>
+											</a>
+										</div>
+										<div class="panel-body">
+											<span id="bidmintpal"></span><br>
+											<span id="askmintpal"></span><br>
+											<span id="lastmintpal"></span><br>
+										</div>
+										<div class="panel-footer">
+											<a href="https://www.mintpal.com/market/RZR/BTC" class="btn btn-primary" target="_blank">Visit Mintpal</a>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<article>
 	</section>
 
 	<section id="community" class="section">
@@ -354,7 +354,7 @@
 						</div>
 						<div class="panel-body">
 							<div class="col-md-6">
-								<a href="https://www.dropbox.com/s/dl6aozbf3ddgjpy/Razor_Whitepaper.pdf">
+								<a href="https://www.dropbox.com/s/dl6aozbf3ddgjpy/Razor_Whitepaper.pdf" target="_blank">
 									<i class="fa fa-file-o fa-4x"></i>
 									<p>
 										An Analysis of Anonymity in Bitcoin Using P2P Network Traffic:
@@ -365,7 +365,7 @@
 								</a>
 							</div>
 							<div class="col-md-6">
-								<a href="http://fc14.ifca.ai/papers/fc14_submission_71.pdf">
+								<a href="http://fc14.ifca.ai/papers/fc14_submission_71.pdf" target="_blank">
 									<i class="fa fa-file-text-o fa-4x"></i>
 									<p>
 										The Razor whitepaper and solution to the previous whitepaper:

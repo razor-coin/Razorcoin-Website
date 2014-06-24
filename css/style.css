@@ -31,16 +31,31 @@ header {
 	min-width: 100%;
 }
 
+.nav li a{
+
+}
+
+.nav li a:hover{
+
+}
+
+.navbar-trans li.active {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
 #intro {
 	position: relative;
 	top: 0;
 	min-width: 100%;
-	margin-top: -85px;
+}
+
+#slides {
+	margin-top: 85px !important;
 }
 
 #content {
 	position: relative;
-	margin-top: 85px;
 }
 
 #exchanges .panel-body {
