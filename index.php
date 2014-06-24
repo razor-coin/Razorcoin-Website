@@ -458,18 +458,6 @@
 <script src="./js/index.js"></script>
 
 <script>
-$(document).ready(function() {
-	$('body').scrollspy();
-	updateBittrex();
-	updateMintpal();
-	updateCryptsy();
-
-	window.setInterval(function(){
-		updateBittrex();
-		updateMintpal();
-	}, 20000);
-});
-
 $('a').smoothScroll();
 </script>
 </body>
